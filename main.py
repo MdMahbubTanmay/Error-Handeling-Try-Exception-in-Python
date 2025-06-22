@@ -25,3 +25,13 @@ except:
 
 finally:
   print("কখগঘঙ") 
+
+
+
+
+  #Making My own error
+
+  k = int(input("Enter Values less Than 5:"))
+
+  if k>=5:
+    raise ValueError("Hey! Do What I Asked for") #It will throw an Error.This is how we can make error by ourselves to stop program
