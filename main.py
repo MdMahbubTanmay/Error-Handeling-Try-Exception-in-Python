@@ -12,3 +12,16 @@ try:
   print(a.index("x")) # as x not in the string so it will  through an error 
 except Exception as e:
   print(e) #substring not found
+
+
+
+
+
+# Finally: It will run no matter error occurd or not
+try:
+  print(a.index("x")) # as x not in the string so it will  through an error 
+except:
+  print("Cant do this") 
+
+finally:
+  print("কখগঘঙ") 
